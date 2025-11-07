@@ -1,0 +1,144 @@
+@charset "utf-8";
+
+/* === FRONT PAGE STYLES === */
+body.front-page {
+  background-image: url("../images/background1.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+}
+
+.front-page h1 {
+  font-size: 80px;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px black;
+  color: floralwhite;
+  font-family: komu-a;
+}
+
+.front-page h2 {
+  font-size: 40px;
+  text-align: left;
+  margin-left: 850px;
+  color: floralwhite;
+  font-family: komu-a;
+}
+
+.front-page ul {
+  list-style-type: square;
+  margin-left: 850px;
+  padding: 0;
+  gap: 30px;
+}
+
+.front-page li {
+  color: paleturquoise;
+  font-family: komu-a;
+  font-size: 17px;
+  margin-bottom: 5px;
+  background: rgba(211,146,225,1.00);
+  padding: 10px 15px;
+  border-radius: 10px;
+}
+
+/* === ABOUT PAGE STYLES === */
+body.about-page {
+  background-image: url("../images/background2.png");
+  background-size: cover;
+  background-position: no-repeat;
+  background-attachment: scroll;
+}
+
+.about-page h1 {
+  font-size: 80px;
+  text-align: left;
+  margin-left: 650px;
+  font-weight: bold;
+  color: floralwhite;
+  font-family: komu-a;
+  text-shadow: 2px 2px 5px black;
+}
+
+.about-page .info-box {
+  font-size: 18px;
+  text-align: left;
+  margin-left: 600px;
+  background: rgba(255, 255, 255, 0.3);
+  color: aliceblue;
+  padding: 20px;
+  border-radius: 15px;
+  width: 40%;
+  line-height: 1.6;
+  backdrop-filter: blur(6px);
+}
+
+.about-page h3 {
+  font-size: 40px;
+  text-align: left;
+  margin-left: 100px;
+}
+
+/* === PROJECTS PAGE STYLES === */
+body.projects-page {
+  background-image: url("../images/background3.png");
+  background-size: cover;
+  background-position: no-repeat;
+  background-attachment: scroll;
+}
+
+.projects-page h1 {
+  font-size: 80px;
+  text-align: left;
+  margin-left: 50px;
+  font-weight: bold;
+  color: floralwhite;
+  font-family: komu-a;
+  text-shadow: 2px 2px 5px black;
+}
+
+/* === LIFE DRAWING PAGE STYLES === */
+body.lifedrawing-page {
+  background-image: url("../images/background4.png");
+  background-size: cover;
+  background-position: no-repeat;
+  background-attachment: scroll;
+}
+
+.lifedrawing-page h1 {
+  font-size: 80px;
+  text-align: left;
+  margin-left: 20px;
+  font-weight: bold;
+  color: floralwhite;
+  font-family: komu-a;
+  text-shadow: 2px 2px 5px black;
+}
+
+/* === CONTACT PAGE STYLES === */
+body.contact-page {
+  background-image: url("../images/background7.png");
+  background-size: cover;
+  background-position: no-repeat;
+  background-attachment: scroll;
+}
+
+.contact-page h1 {
+  font-size: 80px;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px black;
+  color: floralwhite;
+  font-family: komu-a;
+}
+
+.contact-page h2,
+.contact-page h3 {
+  font-size: 30px;
+  text-align: left;
+  margin-left: 50px;
+  margin-top: 85px;
+  color: floralwhite;
+  font-family: komu-a;
+}
